@@ -1,27 +1,32 @@
-# Explainable AI for Financial Advisory: Churn Prediction
-This repository hosts a prototype of an Explainable AI platform for Financial Advisory. The platform aims to provide transparent insights for customers who are at risk of leaving a financial service. The prototype includes three churn prediction models (Logistic Regression, Random Forest and KNN) along with explanations generated using SHAP.
+Explainable AI for Financial Advisory: Churn Prediction with SHAP and LIME
+This repository hosts a prototype of an Explainable AI (XAI) platform for Financial Advisory. The platform enhances transparency and interpretability in machine learning models, focusing on predicting customer churn. The goal is to provide clear, understandable insights for financial institutions and stakeholders, enabling them to identify and retain customers at risk of leaving. This prototype includes three churn prediction models—Logistic Regression, Random Forest, and K-Nearest Neighbors (KNN)—with explanations generated using SHAP and LIME.
 
-## Repository Contents
-data/\
-├─ AdvisoryPerformance.csv\
-├─ Clients.csv\
-├─ clients_dataset.pickle\
-├─ Contracts.csv\
-├─ MarketPerformance.csv\
-├─ Transactions.csv\
-.gitignore\
-churn_prediction_models.ipynb\
-prepare_clients_dataset.py\
+Key Deliverables
+Explainable Models: Designed and implemented machine learning models with built-in explainability features, using SHAP and LIME to make the model’s predictions transparent and accessible.
+AI Frameworks: Leveraged advanced AI frameworks and libraries like Scikit-learn, TensorFlow, and SHAP to develop and test models that prioritize both performance and interpretability, ensuring they are applicable to high-stakes domains like finance.
+Transparent Decision-Making: Preprocessed and analyzed data to build models that not only predict customer churn with high accuracy but also provide understandable justifications for each decision—critical for regulatory compliance and building user trust.
+Multidisciplinary Collaboration: Worked in a team that ensured the models adhered to ethical AI standards, producing outcomes that could be easily interpreted by non-technical stakeholders, thus improving their practical usability.
+Balanced Performance and Transparency: Successfully balanced achieving high model accuracy with providing interpretable explanations, addressing the critical need for transparency in AI-driven decisions.
+
+data/
+├─ AdvisoryPerformance.csv
+├─ Clients.csv
+├─ clients_dataset.pickle
+├─ Contracts.csv
+├─ MarketPerformance.csv
+├─ Transactions.csv
+.gitignore
+churn_prediction_models.ipynb
+prepare_clients_dataset.py
 requirements.txt
 
-Please note that .csv files are not included due to GitHub file size limits.
+The churn_prediction_models.ipynb notebook evaluates and explains the churn prediction models. The required dataset, clients_dataset.pickle, is included in the data/ directory. If you prefer to generate the dataset from the original data, download the original .csv files, place them in the data/ directory as shown in the repository contents tree, and execute the prepare_clients_dataset.py script.
 
-The churn_prediction_models.ipynb notebook conducts evaluation and explanation of the churn prediction models. The required dataset to run the notebook, clients_dataset.pickle, is already included in the data/ directory. If you wish to generate the dataset from the original data, download the [original .csv files](https://unibari-my.sharepoint.com/:f:/g/personal/a_martina13_studenti_uniba_it/ElKPy0EWWAxBrsV30M0t7f0BJBE36HDkCyQiZHddhTlTEQ), place them in the data/ directory as shown in the repository contents tree above, and execute the prepare_clients_dataset.py script.
+Requirements
+To run the churn_prediction_models.ipynb notebook or the prepare_clients_dataset.py script, set up a Python 3.8.10 virtual environment. Use the following steps for setup on Windows:
 
-## Requirements
-To execute the churn_prediction_models.ipynb notebook or the prepare_clients_dataset.py script, you will need a Python 3.8.10 virtual environment. Follow the instructions below to set up the virtual environment using a Windows Command shell:
-
-1. Create a virtual environment named .venv: `python -m venv .venv`
-2. Activate the virtual environment: `.venv\scripts\activate.bat`
-3. Install the required Python packages: `pip install -r requirements.txt`
-4. Using the .venv virtual environment, run the script from the Windows Command shell or execute the notebook using your preferred notebook interface.
+Create a virtual environment: python -m venv .venv
+Activate the virtual environment: .venv\scripts\activate.bat
+Install the required packages: pip install -r requirements.txt
+Run the notebook or script using your preferred environment or notebook interface within the virtual environment.
+This project illustrates the powerful potential of Explainable AI in building trust and enhancing decision-making in financial advisory, all while ensuring that AI models are transparent, accessible, and aligned with ethical standards.
