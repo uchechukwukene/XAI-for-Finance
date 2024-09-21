@@ -26,14 +26,10 @@ churn_prediction_models.ipynb       # Main notebook for model building & explana
 prepare_clients_dataset.py          # Script to preprocess data
 requirements.txt                   # Required Python packages
 
-```bash
-## 🧠 Explainability Features
+🧠 Explainability Features
+This project leverages SHAP and LIME to make the model’s predictions understandable:
 
-This project leverages **SHAP** and **LIME** to make the model’s predictions understandable:
-
-- **SHAP**: Provides global and local interpretability by calculating feature contributions for each prediction.
-- **LIME**: Offers explanations by approximating complex models with interpretable ones on a local level.
-
-## ✨ Why Explainability Matters
-
-In finance, making predictions is not enough. Advisors and stakeholders need to **trust** these predictions by understanding why decisions were made. That’s why this project focuses on explainable AI—helping bridge the gap between complex models and human insight.
+SHAP: Provides global and local interpretability by calculating feature contributions for each prediction.
+LIME: Offers explanations by approximating complex models with interpretable ones on a local level.
+✨ Why Explainability Matters
+In finance, making predictions is not enough. Advisors and stakeholders need to trust these predictions by understanding why decisions were made. That’s why this project focuses on explainable AI—helping bridge the gap between complex models and human insight.
