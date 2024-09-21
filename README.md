@@ -35,4 +35,4 @@ LIME: Offers explanations by approximating complex models with interpretable one
 ##  Why Explainability Matters
 In finance, making predictions is not enough. Advisors and stakeholders need to trust these predictions by understanding why decisions were made. That’s why this project focuses on explainable AI—helping bridge the gap between complex models and human insight.
 
-# Happy coding! 👨‍💻👩‍💻
+### Happy coding! 👨‍💻👩‍💻
