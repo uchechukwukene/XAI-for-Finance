@@ -26,7 +26,7 @@ churn_prediction_models.ipynb       # Main notebook for model building & explana
 prepare_clients_dataset.py          # Script to preprocess data
 requirements.txt                   # Required Python packages
 
-🧠 Explainability Features
+## 🧠 Explainability Features
 This project leverages SHAP and LIME to make the model’s predictions understandable:
 
 SHAP: Provides global and local interpretability by calculating feature contributions for each prediction.
