@@ -1,4 +1,4 @@
-Explainable AI for Financial Advisory: Churn Prediction with SHAP and LIME
+#Explainable AI for Financial Advisory: Churn Prediction with SHAP and LIME
 This repository hosts a prototype of an Explainable AI (XAI) platform for Financial Advisory. The platform enhances transparency and interpretability in machine learning models, focusing on predicting customer churn. The goal is to provide clear, understandable insights for financial institutions and stakeholders, enabling them to identify and retain customers at risk of leaving. This prototype includes three churn prediction models—Logistic Regression, Random Forest, and K-Nearest Neighbors (KNN)—with explanations generated using SHAP and LIME.
 
 Key Deliverables
